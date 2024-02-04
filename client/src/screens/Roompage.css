@@ -1,0 +1,34 @@
+.room-container {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    background: var(--background);
+    color: var(--color);
+    letter-spacing: 1px;
+    transition: var(--background) 0.2s ease;
+    -moz-transition: var(--background) 0.2s ease;
+    -ms-transition: var(--background) 0.2s ease;
+    -o-transition: var(--background) 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+:root{
+    --background: #1a1a2e;
+    --color: #ffffff;
+    --primary-color: #0f3460;
+}
+*{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
